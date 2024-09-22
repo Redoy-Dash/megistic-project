@@ -992,6 +992,11 @@ header {
 	header .main_header .container .btn {
 		margin-left: 40px;
 	}
+	.main_gallary .container .gallary {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
 }
 
 
@@ -1026,6 +1031,12 @@ header {
 	}
 	.design_section .design .container .main_design .box-1 p {
 		font-size: 25px;
+	}
+	.main_gallary {
+		margin: 10px 40px;
+	}
+	.main_gallary .hading h2 {
+		padding-top: 20px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -1064,6 +1075,14 @@ header {
 	.design_section .design .container .main_design .box-1 p {
 		font-size: 20px;
 	}
+	.main_gallary .container .gallary {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+	.main_gallary .hading h2 {
+        padding-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 540px) {
