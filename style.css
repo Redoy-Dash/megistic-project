@@ -977,6 +977,11 @@ header {
 	.majistic_section .container .main_majistic .right_site .ii img {
 		width: 100%;
 	}
+	.design_section .design .container .main_design {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
 }
 
 @media only screen and (max-width: 830px) {
@@ -1016,6 +1021,12 @@ header {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
+	.design_section .design .container .main_design .box-1 {
+		padding: 30px;
+	}
+	.design_section .design .container .main_design .box-1 p {
+		font-size: 25px;
+	}
 }
 @media only screen and (max-width: 767px) {
 	header .main_header {
@@ -1046,6 +1057,12 @@ header {
 	}
 	.majistic_section .container .main_majistic {
 		padding: 0 40px;
+	}
+	.design_section .design .container .main_design {
+		margin: 30px;
+	}
+	.design_section .design .container .main_design .box-1 p {
+		font-size: 20px;
 	}
 }
 
@@ -1103,6 +1120,12 @@ header {
 	}
 	.majistic_section .container .main_majistic .right_site .ii img {
 		height: 300px;
+	}
+	.design_section .design .container .main_design .box-1 .img img {
+		width: 70%;
+	}
+	.design_section .design .container .main_design .box-1 p {
+		font-size: 15px;
 	}
 }
 
