@@ -959,6 +959,24 @@ header {
 		position: relative;
 		right: 60px;
 	}
+	.majistic_section .container .main_majistic .left_site h1 {
+		font-size: 25px;
+	}
+	.majistic_section .container .main_majistic .left_site p {
+		font-size: 13px;
+		margin-bottom: 0;
+	}
+	.majistic_section .container .main_majistic .left_site h4 {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.majistic_section .container .main_majistic .left_site a {
+		padding: 10px 20px;
+		font-size: 10px;
+	}
+	.majistic_section .container .main_majistic .right_site .ii img {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 830px) {
@@ -994,6 +1012,10 @@ header {
 		font-size: 15px;
 		padding: 20px 50px;
 	}
+	.majistic_section .container .main_majistic {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
 @media only screen and (max-width: 767px) {
 	header .main_header {
@@ -1021,6 +1043,9 @@ header {
 @media only screen and (max-width: 575px) {
 	header .main_header .container .btn {
 		padding-right: 35px;
+	}
+	.majistic_section .container .main_majistic {
+		padding: 0 40px;
 	}
 }
 
@@ -1075,5 +1100,14 @@ header {
 	}
 	header .main_header .container .btn {
 		padding-right: 35px;
+	}
+	.majistic_section .container .main_majistic .right_site .ii img {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 384px) {
+	.majistic_section .container .main_majistic .right_site .ii img {
+		height: 250px;
 	}
 }
