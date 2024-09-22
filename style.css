@@ -982,6 +982,11 @@ header {
 		grid-template-columns: 1fr;
 		gap: 30px;
 	}
+	.from_section .container .main_from_blog .box-1 .content h2 {
+		font-family: Raleway, sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+	}
 }
 
 @media only screen and (max-width: 830px) {
@@ -997,6 +1002,17 @@ header {
 		grid-template-columns: 1fr 1fr;
 		gap: 20px;
 	}
+	.from_section .container .main_from_blog .content p {
+		padding-top: 0px;
+		font-weight: lighter;
+		margin-bottom: 0;
+	}
+	.from_section .container .main_from_blog .box-1 .content h2 {
+        font-family: Raleway, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+		padding-top: 5px;
+    }
 }
 
 
@@ -1037,6 +1053,23 @@ header {
 	}
 	.main_gallary .hading h2 {
 		padding-top: 20px;
+	}
+	.from_section .container .main_from_blog .content p {
+		font-size: 25px;
+		padding-top: 10px;
+	}
+	.from_section .container .main_from_blog {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	.from_section .container .main_from_blog .content a {
+		position: relative;
+		top: 20px;
+		font-size: 20px;
+	}
+	.from_section .container .main_from_blog .box-1 .content h2 {
+		font-size: 40px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -1146,10 +1179,16 @@ header {
 	.design_section .design .container .main_design .box-1 p {
 		font-size: 15px;
 	}
+	.from_section .container .main_from_blog .box-1 .content h2 {
+		font-size: 30px;
+	}
 }
 
 @media only screen and (max-width: 384px) {
 	.majistic_section .container .main_majistic .right_site .ii img {
 		height: 250px;
 	}
+	.from_section .container .main_from_blog .content p {
+        font-size: 20px;
+    }
 }
